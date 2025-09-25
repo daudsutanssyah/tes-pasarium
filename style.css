@@ -1,0 +1,206 @@
+/* utilities */
+.btn-utama {
+    background-color: #119DA4 !important;
+    color: white !important;
+}
+
+.btn-utama:hover {
+    box-shadow: 0 10px 10px rgba(12, 169, 143, 0.2);
+    transform: scale(1.1);
+    transition: all ease 300ms;
+}
+
+.text-link {
+    color: #119DA4;
+}
+
+/* navbar */
+.navbar {
+    background-color: white;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.020);
+}
+
+.navbar-brand img {
+    width: 70%;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link:hover {
+    color: #119DA4 !important;
+    font-weight: bold;
+    border-bottom: 2px solid #119DA4;
+    transition: all ease 300ms;
+}
+
+/* navbar */
+
+/* hero */
+#hero {
+    margin-top: 100px;
+}
+
+#hero h1 {
+    font-size: 60px;
+}
+
+#hero img {
+    width: 100%;
+}
+
+/* hero */
+
+/* layanan */
+#layanan {
+    margin-top: 100px;
+}
+
+#layanan .card {
+    border: none;
+}
+
+#layanan .card:hover {
+    box-shadow: 0 10px 10px rgba(12, 169, 143, 0.2);
+    transition: all ease 300ms;
+    transform: scale(1.1);
+}
+
+#layanan .card-title {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+}
+
+/* layanan */
+
+/* profil */
+#profil {
+    margin-top: 100px;
+}
+
+#profil img {
+    width: 100%;
+}
+
+#profil span {
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+#profil h1 {
+    font-size: 60px;
+}
+
+#profil p {
+    width: 90%;
+    text-align: justify;
+}
+
+/* profil */
+
+/* portofolio */
+#portofolio {
+    margin-top: 100px;
+}
+
+#portofolio .card {
+    border: none;
+    text-align: center;
+}
+
+/* portofolio */
+
+/* cta */
+#cta {
+    margin-top: 100px;
+}
+
+#cta .bg {
+    background-image: url(./assets/bg-cta.png);
+    background-size: cover;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* cta */
+
+/* footer */
+footer {
+    margin-top: 50px;
+    background-color: #119DA4;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+/* footer */
+
+
+/* Mobile Responsive */
+@media (max-width: 992px) {
+
+    /* hero */
+    #hero {
+        text-align: center;
+    }
+
+    #hero h1 {
+        font-size: 40px;
+    }
+
+    #hero img {
+        margin-top: 30px;
+    }
+
+    #hero .action {
+        justify-content: center;
+    }
+
+    /* hero */
+
+    /* layanan */
+    #layanan img {
+        margin-top: 30px;
+    }
+
+    /* layanan */
+
+    /* profil */
+    #profil {
+        text-align: center;
+    }
+
+    #profil img {
+        margin-bottom: 30px;
+    }
+
+    #profil h1 {
+        font-size: 40px;
+    }
+
+    #profil p {
+        width: auto;
+        text-align: center;
+    }
+
+    /* profil */
+
+    /* portofolio */
+    #portofolio .card {
+        margin-top: 30px;
+    }
+
+    /* portofolio */
+
+    /* cta */
+    #cta .bg {
+        background-image: none;
+    }
+
+    /* cta */
+}
