@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- <!DOCTYPE html> = mendefinisikan bahwa ini adalah dokumen HTML5 -->
+<!-- lang="en" = bahasa default dokumen adalah Inggris -->
 
 <head>
     <meta charset="UTF-8">
+    <!-- charset UTF-8 = standar encoding karakter supaya semua huruf, angka, dan simbol bisa tampil dengan benar -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- viewport = agar website responsive di semua perangkat, terutama mobile -->
+
     <title>Pasarium - Digital Agency</title>
+    <!-- judul halaman yang tampil di tab browser -->
 
     <!-- favicon -->
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <!-- favicon = ikon kecil yang muncul di tab browser -->
 
     <!-- my css -->
     <link rel="stylesheet" href="./style.css">
+    <!-- memanggil file CSS buatan sendiri untuk styling custom -->
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <!-- memanggil library Bootstrap CSS versi 5.3.8 -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- memanggil JavaScript Bootstrap (sudah termasuk Popper.js) -->
 </head>
 
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
+        <!-- navbar Bootstrap dengan posisi fixed-top (selalu menempel di atas layar) -->
         <div class="container">
             <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt=""></a>
+            <!-- navbar-brand = logo perusahaan -->
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- tombol menu (hamburger) saat tampilan di HP/tablet -->
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <!-- menu akan collapse (disembunyikan) di layar kecil -->
                 <div class="navbar-nav gap-3">
+                    <!-- daftar menu navigasi -->
                     <a class="nav-link" aria-current="page" href="#">Beranda</a>
                     <a class="nav-link" href="#layanan">Layanan</a>
                     <a class="nav-link" href="#profil">Profil</a>
@@ -41,18 +60,20 @@
 
     <!-- hero -->
     <div id="hero">
+        <!-- bagian hero (banner utama) -->
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-lg-6">
+                    <!-- konten teks di sisi kiri -->
                     <h1>Solusi Digital Untuk Kemajuan Bisnismu.</h1>
-                    <p class="text-muted">Kami bantu meningkatkan bisnismu untuk memasarkan produk dengan baik dan
-                        kolaborasi yang efektif untuk bisnis.</p>
+                    <p class="text-muted">Kami bantu meningkatkan bisnismu ...</p>
                     <div class="action d-flex align-items-center">
                         <a class="btn btn-utama" href="./contact.html">Mulai Sekarang!</a>
                         <a class="ms-3 text-link" href="#layanan">Cek Layanan</a>
                     </div>
                 </div>
                 <div class="col-lg-6">
+                    <!-- gambar di sisi kanan -->
                     <img src="./assets/img-hero.png" alt="">
                 </div>
             </div>
@@ -62,9 +83,11 @@
 
     <!-- layanan -->
     <div id="layanan">
+        <!-- bagian layanan perusahaan -->
         <div class="container">
             <h4 class="text-center">Layanan Kami</h4>
             <div class="row mt-3">
+                <!-- setiap col-lg-4 = 3 kolom (grid 12/3=4) -->
                 <div class="col-lg-4">
                     <div class="card">
                         <img src="./assets/img-layanan1.png" class="card-img" alt="layanan1">
@@ -96,28 +119,32 @@
 
     <!-- profil -->
     <div id="profil">
+        <!-- bagian profil perusahaan -->
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-lg-6">
+                    <!-- gambar profil -->
                     <img src="./assets/img-profil.png" alt="profil">
                 </div>
                 <div class="col-lg-6">
+                    <!-- teks deskripsi profil -->
                     <span class="text-muted">profil</span>
                     <h1>All in One Best & Creative Agency</h1>
-                    <p class="text-muted">Kami menghadirkan layanan terbaik dengan dukungan para profesional
-                        berpengalaman di bidangnya, untuk memastikan setiap kebutuhan bisnismu terpenuhi dengan solusi
-                        yang tepat dan terpercaya.</p>
+                    <p class="text-muted">Kami menghadirkan layanan terbaik ...</p>
                     <a class="text-link" href="#portofolio">Cek Porfolio Kami</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- profil -->
+
     <!-- portofolio -->
     <div id="portofolio" class="bg-body-tertiary p-5">
+        <!-- bagian portofolio -->
         <div class="container">
             <h4 class="text-center">Portofolio Kami</h4>
             <div class="row mt-3">
+                <!-- setiap col-lg-3 = 4 kolom (grid 12/4=3) -->
                 <div class="col-lg-3">
                     <div class="card">
                         <img src="./assets/img-port1.png" class="card-img-top" alt="port1">
@@ -154,8 +181,10 @@
         </div>
     </div>
     <!-- portofolio -->
+
     <!-- cta -->
     <div id="cta">
+        <!-- CTA (Call To Action) -->
         <div class="container bg">
             <div class="row">
                 <div class="col">
@@ -166,8 +195,10 @@
         </div>
     </div>
     <!-- cta -->
+
     <!-- footer -->
     <footer>
+        <!-- bagian footer -->
         <p>&copy; Copyright Pasarium 2025, All Rights Reserved under Sydemy</p>
     </footer>
     <!-- footer -->
